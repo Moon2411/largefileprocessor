@@ -5,10 +5,9 @@ from jobs.ingestion_job import IngestionJob
 
 def main(argv):
     try:
-        opts, args = getopt.getopt(argv,"path:mode")
-        for opt, arg in opts:
-            if opt == '-mode':
-                mode = arg
+        opts, args = getopt.getopt(argv,"m")
+        if '-m' in opts[0]:
+            mode = args[0]
             
         job = IngestionJob()
         data_path = "data/products.csv"
@@ -19,7 +18,8 @@ def main(argv):
             job.incremental_load(data_path)
         else:
             print("Unkown mode")
-    except:
+    except Exception as err:
+        print(err)
         print("Could not complete the job")
 
 if __name__ == '__main__':
