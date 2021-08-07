@@ -1,6 +1,6 @@
 {
     "connection_strings": {
-        "dummy": "sqlite:///C:\\Users\\ub02459\\OneDrive - The Dow Chemical Company\\Desktop\\LargeFileProcessor\\database\\dummy_new.db",
+        "dummy": "sqlite:///C:\\Users\\ub02459\\OneDrive - The Dow Chemical Company\\Desktop\\LargeFileProcessor\\database\\dummy.db",
         "dev": "",
         "uat": "",
         "prod": ""

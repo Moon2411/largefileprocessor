@@ -2,14 +2,11 @@ import pandas as pd
 import json
 from sqlalchemy import create_engine
 import logging
-import os
 
 
 class IngestionJob:
 
     def __init__(self) -> None:
-        # print(os.get_exec_path())
-        # print(os.getcwd())
         with open('config/config.json', 'r') as fp:
             config = json.load(fp)
         self.engine = create_engine(config['connection_strings']['dummy'])
