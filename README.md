@@ -64,6 +64,9 @@ c. What is done from “Points to achieve” and number of entries in all your t
 All the points from "Points to achieve" are done.
 
 No of entries in Products: 466693
+
+Sample Products Data:
+
 name	sku	description
 Bryce Jones	lay-raise-best-end	Art community floor adult your single type. Per back community former stock thing.
 John Robinson	cup-return-guess	Produce successful hot tree past action young song. Himself then tax eye little last state vote. Country down list that speech economy leave.
@@ -86,6 +89,10 @@ Lose how floor main agency. Ability cold can message. Expect camera movie.
 Save training sign history alone. Sell maybe conference pay several indicate."
 
 No of entries in Products_agg: 212751
+
+Sample Products_agg data
+
+name no_products
 Aaron Abbott	1
 Aaron Acevedo	1
 Aaron Acosta	3
