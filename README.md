@@ -27,7 +27,7 @@ Database: Sqlite
 
 #### Deliverables:
 
-a. Steps to run your code. As less steps we are to run, better for you (Hint: Docker)
+a. Steps to run your code. 
 
 Windows:
 1. Put the input csv file with name "products.csv" into data folder
@@ -68,6 +68,7 @@ Product_agg: f"""
 
 c. What is done from “Points to achieve” and number of entries in all your tables with sample 10 rows from each
 All the points from "Points to achieve" are done.
+
 No of entries in Products: 466693
 No of entries in Products_agg: 
 
