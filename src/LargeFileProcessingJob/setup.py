@@ -6,7 +6,7 @@ import json
 
 
 def main():
-    with open('../../config/config.json', 'r') as fp:
+    with open('config/config.json', 'r') as fp:
         config = json.load(fp)
     engine = create_engine(config['connection_strings']['dummy'])
 
