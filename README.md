@@ -27,11 +27,12 @@ Database: Sqlite
 
 #### Deliverables:
 
-a. Steps to run your code. As less steps we are to run, better for you (Hint: Docker)
+a. Steps to run your code. 
 
 Windows:
 1. Put the input csv file with name "products.csv" into data folder
-2. Run the bat file as .\src\LargeFileProcessingJob\run.bat
+2. Change the connection_strings and log_path to your local address
+3. Run the bat file as .\src\LargeFileProcessingJob\run.bat
 Note: There are 2 modes: Full load and Incremental load
 Full load should be used whenever you want to load the data for the first time
 Incremental load should be used whenever there is a new file with updates
@@ -39,7 +40,8 @@ In the bat file we have first run the full load and then incremental load but if
 
 Linux:
 1. Put the input csv file with name "products.csv" into data folder
-2. Run the sh file as .\src\LargeFileProcessingJob\run.sh
+2. Change the connection_strings and log_path to your local address
+3. Run the sh file as .\src\LargeFileProcessingJob\run.sh
 Note: There are 2 modes: Full load and Incremental load
 Full load should be used whenever you want to load the data for the first time
 Incremental load should be used whenever there is a new file with updates
@@ -66,6 +68,7 @@ Product_agg: f"""
 
 c. What is done from “Points to achieve” and number of entries in all your tables with sample 10 rows from each
 All the points from "Points to achieve" are done.
+
 No of entries in Products: 466693
 No of entries in Products_agg: 
 
