@@ -28,7 +28,7 @@ class IngestionJob:
                 "Error reading existing data. Message: %s", str(err))
             raise Exception(err)
 
-    def __get_new_data(self, new_products, existing_products):
+    def __get_new_data(self, new_products: pd.DataFrame, existing_products):
         try:
             self.logger.info('Finding new data')
             new_data = new_products.loc[~new_products['sku'].isin(
