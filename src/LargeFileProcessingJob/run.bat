@@ -1,6 +1,6 @@
-python src\setup.py
+python src\LargeFileProcessingJob\setup.py
 
-python src\main.py -mode=full_load
-python src\main.py -mode=incremental_load
+python src\LargeFileProcessingJob\main.py -m full_load
+python src\LargeFileProcessingJob\main.py -m incremental_load
 
 python src\LargeFileProcessingJob\jobs\aggregate_job.py

@@ -1,9 +1,9 @@
 {
     "connection_strings": {
-        "dummy": "sqlite:///C:\\Users\\ub02459\\OneDrive - The Dow Chemical Company\\Desktop\\LargeFileProcessor\\database\\dummy.db",
+        "dummy": "sqlite:///database//dummy.db",
         "dev": "",
         "uat": "",
         "prod": ""
     },
-    "log_path": "C:\\Users\\ub02459\\OneDrive - The Dow Chemical Company\\Desktop\\LargeFileProcessor\\logs\\job.log"
+    "log_path": "logs//job.log"
 }
