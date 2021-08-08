@@ -29,15 +29,14 @@ Database: Sqlite
 
 #### Deliverables:
 
-a. Steps to run your code. 
+a. Steps to run your code
 
-Windows:
 1. Put the input csv file with name "products.csv" into data folder
 2. Run pip3 install -r requirements.txt
-3. Change the connection_strings and log_path to your local address
-4. Run the bat file as .\src\LargeFileProcessingJob\run.bat
+3. Run the bat file as .\src\LargeFileProcessingJob\run.bat
+4. Check logs file to see progress
 Note: There are 2 modes: Full load and Incremental load
-Full load should be used whenever you want to load the data for the first time
+Full load should be used whenever you want to load data for the first time
 Incremental load should be used whenever there is a new file with updates
 In the bat file we have first run the full load and then incremental load but if only incremental is required we can remove full load from the bat file and then run the incremental load
 
